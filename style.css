@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+#header{
+    width: 100%;
+    color: blue;
+    font-size: 50;
+}
+
+#title{
+    color:white;
+    font-family: cursive;
+    font-size: 35;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#aboutText{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    border-style: dotted; 
+}
+
+#aboutText p{
+    color: black;
+    font-size: 25;
+}
+
+#store{
+    color: white;
+}
+
+
+#homebg{
+    width: 70%;
+    height: 80%;
+    color:azure;
+    font-size: 30px;
+    background-image: url(images/home_background.jpg);
+    background-size:100% 100%;
+}
+#homebg img{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    opacity: 0.35;
+}
+
+#homeText{
+    background-color: darkgrey;
+}
+
+#contact{
+    font-size: 50px;
+    color: darkseagreen;
+}
+
+
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
